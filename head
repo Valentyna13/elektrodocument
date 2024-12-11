@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтерактивний навчальний сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        section {
+            padding: 2rem;
+            background: #fff;
+            margin: 1rem auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+
+        ul li a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Інтерактивний навчальний модуль</h1>
+    </header>
+
+    <nav>
+        <a href="#documentation">Документація</a>
+        <a href="#basic-info">Основні відомості</a>
+        <a href="#practical">Практичні розробки та приклади</a>
+        <a href="#testing">Тестування</a>
+    </nav>
+
+    <section id="documentation">
+        <h2>Документація</h2>
+        <p>У цьому розділі ви знайдете детальну інформацію про електронний документообіг, його структуру та ключові аспекти роботи з цифровими документами.</p>
+        <ul>
+            <li><a href="#">Посібник користувача</a></li>
+            <li><a href="#">Технічна документація</a></li>
+            <li><a href="#">Часті запитання</a></li>
+        </ul>
+    </section>
+
+    <section id="basic-info">
+        <h2>Основні відомості</h2>
+        <p>Даний розділ містить базові знання про електронний документообіг, включаючи типи документів, способи їх створення, зберігання та обробки.</p>
+    </section>
+
+    <section id="practical">
+        <h2>Практичні розробки та приклади</h2>
+        <p>Ознайомтеся з прикладами використання електронного документообігу у реальних умовах:</p>
+        <ul>
+            <li><a href="#">Приклад 1: Реєстрація документів</a></li>
+            <li><a href="#">Приклад 2: Підписання електронного документа</a></li>
+            <li><a href="#">Приклад 3: Організація архіву</a></li>
+        </ul>
+    </section>
+
+    <section id="testing">
+        <h2>Тестування</h2>
+        <p>У цьому розділі ви можете перевірити свої знання за допомогою інтерактивних завдань:</p>
+        <ul>
+            <li><a href="https://example.com/test1" target="_blank">Тест 1: Основи документообігу</a></li>
+            <li><a href="https://example.com/test2" target="_blank">Тест 2: Робота з цифровим підписом</a></li>
+            <li><a href="https://example.com/test3" target="_blank">Тест 3: Організація архівів</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Навчальна платформа. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
